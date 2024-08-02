@@ -1,0 +1,9 @@
+--------------------------------------------------
+The graph is colorable with 3 colors. Coloring: {1: 2, 2: 3, 3: 2, 4: 1, 5: 3, 6: 2, 7: 1, 8: 1, 9: 1}
+--------------------------------------------------
+The graph is not colorable with 1 colors.
+The graph is not colorable with 2 colors.
+The graph is colorable with 3 colors. Coloring: {1: 2, 2: 3, 3: 2, 4: 1, 5: 3, 6: 2, 7: 1, 8: 1, 9: 1}
+The chromatic number of the graph is 3.
+Valid coloring with chromatic number: {1: 2, 2: 3, 3: 2, 4: 1, 5: 3, 6: 2, 7: 1, 8: 1, 9: 1}
+--------------------------------------------------

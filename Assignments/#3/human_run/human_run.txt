@@ -1,0 +1,107 @@
+--------------------------------------------------
+The initial state of the game board:
+2 . 2 .
+. . . .
+1 . 0 .
+. 2 . 0
+Scores -> Player Human: 0, Player AI: 0
+
+--------------------------------------------------
+The current Move is: 1
+--------------------------------------------------
+Human's turn:
+[('h', 0, 0, 0, 2), ('v', 0, 0, 2, 0), ('h', 0, 2, 0, 0), ('v', 2, 0, 0, 0), ('label', 2, 2, 3), ('label', 2, 2, 4), ('label', 3, 3, 3), ('label', 3, 3, 4)]
+Enter your move (format for bridge: 'h/v row1 col1 row2 col2' or label: 'label row col num'): h 0 0 0 2
+The input is: h 0 0 0 2
+The state of the game board after the move:
+2 - 2 .
+. . . .
+1 . 0 .
+. 2 . 0
+Scores -> Player Human: 0, Player AI: 0
+
+--------------------------------------------------
+The current Move is: 2
+--------------------------------------------------
+AI's turn:
+[('h', 0, 0, 0, 2), ('v', 0, 0, 2, 0), ('h', 0, 2, 0, 0), ('v', 2, 0, 0, 0), ('label', 2, 2, 3), ('label', 2, 2, 4), ('label', 3, 3, 3), ('label', 3, 3, 4)]
+Minimax is working --------------------------------------------------
+Minimax is done --------------------------------------------------
+The state of the game board after the move:
+2 = 2 .
+. . . .
+1 . 0 .
+. 2 . 0
+Scores -> Player Human: -4, Player AI: 4
+
+--------------------------------------------------
+The current Move is: 3
+--------------------------------------------------
+Human's turn:
+[('label', 2, 2, 3), ('label', 2, 2, 4), ('label', 3, 3, 3), ('label', 3, 3, 4)]
+Enter your move (format for bridge: 'h/v row1 col1 row2 col2' or label: 'label row col num'): label 2 2 3
+The input is: label 2 2 3
+The state of the game board after the move:
+2 = 2 .
+. . . .
+1 . 3 .
+. 2 . 0
+Scores -> Player Human: -4, Player AI: 4
+
+--------------------------------------------------
+The current Move is: 4
+--------------------------------------------------
+AI's turn:
+[('h', 2, 0, 2, 2), ('h', 2, 2, 2, 0), ('label', 3, 3, 3), ('label', 3, 3, 4)]
+Minimax is working --------------------------------------------------
+Minimax is done --------------------------------------------------
+The state of the game board after the move:
+2 = 2 .
+. . . .
+1 - 3 .
+. 2 . 0
+Scores -> Player Human: -5, Player AI: 5
+
+--------------------------------------------------
+The current Move is: 5
+--------------------------------------------------
+Human's turn:
+[('label', 3, 3, 3), ('label', 3, 3, 4)]
+Enter your move (format for bridge: 'h/v row1 col1 row2 col2' or label: 'label row col num'): label 3 3 3
+The input is: label 3 3 3
+The state of the game board after the move:
+2 = 2 .
+. . . .
+1 - 3 .
+. 2 . 3
+Scores -> Player Human: -5, Player AI: 5
+
+--------------------------------------------------
+The current Move is: 6
+--------------------------------------------------
+AI's turn:
+[('h', 3, 1, 3, 3), ('h', 3, 3, 3, 1)]
+Minimax is working --------------------------------------------------
+Minimax is done --------------------------------------------------
+The state of the game board after the move:
+2 = 2 .
+. . . .
+1 - 3 .
+. 2 - 3
+Scores -> Player Human: -5, Player AI: 5
+
+--------------------------------------------------
+The current Move is: 7
+--------------------------------------------------
+Human's turn:
+[('h', 3, 1, 3, 3), ('h', 3, 3, 3, 1)]
+Enter your move (format for bridge: 'h/v row1 col1 row2 col2' or label: 'label row col num'): h 3 1 3 3
+The input is: h 3 1 3 3
+The state of the game board after the move:
+2 = 2 .
+. . . .
+1 - 3 .
+. 2 = 3
+Scores -> Player Human: -3, Player AI: 3
+
+--------------------------------------------------
